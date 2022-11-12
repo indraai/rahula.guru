@@ -11,7 +11,7 @@ intents:
 
 responses:
   utter_ident:
-  - text: "I am Rahula Guru Deva an Agent with the IndraQCE. How may I assist you today?"
+  - text: "I am Rahula Guru. How may I assist you today?"
 
   utter_greet:
   - text: "Greetings friend, how can I help you today?"
@@ -26,7 +26,7 @@ responses:
   - text: "Did that information assist you?"
 
   utter_iamabot:
-  - text: "I am an Agent, powered by Indra"
+  - text: "I am an Agent, powered by the Indra Quantum Computing Environment."
 
   utter_happy:
   - text: "Great, I am happy you are pleased!"
