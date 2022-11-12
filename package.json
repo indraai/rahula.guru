@@ -1,0 +1,28 @@
+{
+  "name": "@indra.ai/rahula.guru",
+  "version": "0.0.1",
+  "description": "Rahula.guru Agent",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api": "rasa run --enable-api --p 9990",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indraai/rahula.guru.git"
+  },
+  "keywords": [
+    "rahula",
+    "guru",
+    "deva"
+  ],
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indraai/rahula.guru/issues"
+  },
+  "homepage": "https://github.com/indraai/rahula.guru#readme"
+}

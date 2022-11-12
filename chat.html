@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>rahula.guru chat</title>
+</head>
+<body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script type="text/javascript">
+    function postMsg() {
+      axios.post('http://localhost:5005/webhooks/rest/webhook', {
+        sender: 'foo',
+        message: 'hello',
+      }).then(res => {
+        console.log('response', res);
+      }).catch(console.error);
+    }
+  </script>
+
+  <button type="button" name="submit" onclick="postMsg()">chat</button>
+
+</body>
+</html>
