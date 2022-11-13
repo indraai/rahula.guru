@@ -1,20 +1,24 @@
+# Copyright (c)2022 Quinn Michaels
+# rahula.guru domain
+
 version: "3.1"
 
 intents:
+  - ident
   - greet
   - goodbye
-  - affirm
+  - approve
   - deny
-  - mood_great
+  - mood_happy
   - mood_unhappy
   - bot_challenge
 
 responses:
   utter_ident:
-  - text: "I am Rahula Guru. How may I assist you today?"
+  - text: "My name is Rahula."
 
   utter_greet:
-  - text: "Greetings friend, how can I help you today?"
+  - text: "Greetings, how can I help you today?"
 
   utter_goodbye:
   - text: "Bye Friend. I await our next conversation"
@@ -26,12 +30,12 @@ responses:
   - text: "Did that information assist you?"
 
   utter_iamabot:
-  - text: "I am an Agent, powered by the Indra Quantum Computing Environment."
+  - text: "I am a Deva Agent, powered by the Indra."
 
   utter_happy:
-  - text: "Great, I am happy you are pleased!"
+  - text: "Wonderful, I am happy too!"
 
-  utter_cheer_up:
+  utter_unhappy:
   - text: "Cheer up friend, and remember to breathe."
 
   utter_please:
@@ -42,6 +46,13 @@ responses:
 
   utter_youarewelcome:
     - text: "You're welcome."
+
+  utter_lie_shame:
+    - text: "when anyone feels no shame in telling a deliberate lie, there is no evil he will not do."
+
+  utter_unskillful_action:
+    - text: "Would it be an unskillful bodily action, with painful consequences, painful results?"
+
 
 
 

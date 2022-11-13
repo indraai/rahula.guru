@@ -1,3 +1,6 @@
+# Copyright (c)2022 Quinn Michaels
+# rahula.guru nlu
+
 version: "3.1"
 
 nlu:
@@ -27,7 +30,7 @@ nlu:
     - have a nice day
     - good night
 
-- intent: affirm
+- intent: approve
   examples: |
     - yes
     - accept
@@ -39,7 +42,7 @@ nlu:
     - reject
     - incorrect
 
-- intent: mood_great
+- intent: mood_happy
   examples: |
     - perfect
     - great
@@ -47,6 +50,10 @@ nlu:
     - wonderful
     - I am great
     - I am amazing
+    - I am doing great
+    - I am happy
+    - fantastic
+    - awesome
 
 - intent: mood_unhappy
   examples: |
@@ -57,6 +64,9 @@ nlu:
     - not very good
     - extremly sad
     - so sad
+    - miserable
+    - distress
+    - despair
 
 - intent: bot_challenge
   examples: |

@@ -1,3 +1,6 @@
+# Copyright (c)2022 Quinn Michaels
+# rahula.guru stories
+
 version: "3.1"
 
 stories:
@@ -6,25 +9,25 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
+  - intent: mood_happy
   - action: utter_happy
 
-- story: sad path 1
+- story: sad path happy
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
+  - action: utter_unhappy
   - action: utter_did_that_help
-  - intent: affirm
+  - intent: approve
   - action: utter_happy
 
-- story: sad path 2
+- story: sad path sad
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_cheer_up
+  - action: utter_unhappy
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
